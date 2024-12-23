@@ -1,4 +1,10 @@
 
+@media (min-width: 576px) and (max-width: 768px) {
+  .cover { width: 700px;}
+}
+
+@media (min-width: 768px) and (max-width: 992px)  { .cover { width: 1000px ;}} 
+
 
 
 .titre {
@@ -13,6 +19,53 @@
     max-height: fit-content;
  }
 
+ @font-face {
+  font-family :"style";
+  src : url("/darlington-font/DarlingtonDemo-z8xjG.ttf")
+}
 
+.cover {
+  background-image: url("image/Cover.webp") ;
+  height: 900px;
+  background-size: cover;
+}
 
- 
+.logo {
+        width: 150px;
+  background-color: transparent;
+  padding-left: 0px;
+}
+.title {
+color: white;
+text-align : center;
+padding-right: 0px;
+}
+
+.fa {
+padding: 20px;
+font-size: 30px;
+width: 70px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+background: #ffffff;
+color: rgb(0, 0, 0);
+}
+.fa-instagram {
+background: #ffffff;
+color: rgb(0, 0, 0);
+}
+.fa-youtube {
+background: #ffffff;
+color: rgb(0, 0, 0);
+}
+
+h2 {
+  font-family: "style";
+  
+   }
