@@ -19,9 +19,10 @@
     max-height: fit-content;
  }
 
- @font-face {
-  font-family :"style";
-  src : url("/darlington-font/DarlingtonDemo-z8xjG.ttf")
+
+@font-face {
+  font-family: "abc";
+  src: url('darlington-font/DarlingtonDemo-z8xjG.ttf');
 }
 
 .cover {
@@ -65,7 +66,7 @@ background: #ffffff;
 color: rgb(0, 0, 0);
 }
 
-h2 {
-  font-family: "style";
+h1 {
+  font-family: "abc";
   
    }
